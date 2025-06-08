@@ -1,0 +1,8 @@
+Jun  7 10:01:00 watchman sshd[1234]: Accepted password for tomready from 192.168.1.50 port 54321 ssh2
+Jun  7 10:01:05 watchman systemd-logind[567]: New session 1 of user tomready.
+Jun  7 10:01:10 watchman sudo: pam_unix(sudo:auth): authentication failure; logname=tomready uid=1000 euid=0 tty=/dev/pts/0 ruser=tomready rhost=  user=tomready
+Jun  7 10:01:15 watchman sshd[1235]: Failed password for invaliduser from 203.0.113.10 port 49000 ssh2
+Jun  7 10:01:18 watchman sshd[1236]: Failed password for invaliduser from 203.0.113.10 port 49001 ssh2
+Jun  7 10:01:21 watchman sshd[1237]: Failed password for invaliduser from 203.0.113.10 port 49002 ssh2
+Jun  7 10:01:25 watchman sshd[1238]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.10  user=root
+Jun  7 10:01:30 watchman sudo: tomready : TTY=pts/0 ; PWD=/home/tomready ; USER=root ; COMMAND=/usr/bin/apt update
